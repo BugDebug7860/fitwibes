@@ -1,0 +1,126 @@
+#background{
+    position:relative;
+    bottom:10px;
+    height:500px;
+    width:1278px;
+    background-size:cover;
+    transition:all 1s;
+}
+
+body{
+    overflow-x:hidden;   
+}
+
+.tagline{
+    font-size:25px;
+    text-align:center;
+    position:relative;
+    top:30px;
+    color:#0b488a;
+}
+
+.icon{
+    height:140px;
+    width:140px;
+    border:1px solid;
+    display:inline-block;
+    border-radius:50%;
+    transition:all;
+    transition-duration:500ms;
+}
+
+.icon:hover{
+    transform:scale(1.2);
+}
+
+.row1{
+    height:140px;
+    width:800px;;
+    margin-top:90px;
+    margin-left:225px;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+#icon1{
+    background-image:url("fruits.jpg");
+    background-size:cover;
+}
+
+#icon2{
+    background-image:url("fitness.jpg");
+    background-size:cover;
+}
+
+#icon3{
+    background-image:url("yoga.jpg");
+    background-size:cover;
+}
+
+#icon4{
+    background-image:url("bmi.png");
+    background-size:cover;
+}
+
+#icon5{
+    background-image:url("bodyfat.png");
+    background-size:cover;
+}
+
+#icon6{
+    background-image:url("weight.png");
+    background-size:cover;
+}
+
+.row2{
+    height:140px;
+    width:800px;;
+    margin-top:90px;
+    margin-left:225px;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.icon_title{
+    font-size:25px;
+}
+
+#icon1_text{
+    position:relative;
+    bottom:240px;
+    left:230px;
+}
+
+#icon2_text{
+    position:relative;
+    bottom:240px;
+    left:370px;
+}
+
+#icon3_text{
+    position:relative;
+    bottom:240px;
+    left:486px;
+}
+
+ #icon4_text{
+    position:relative;
+    top:9px;
+    right:355px;
+}
+
+#icon5_text{
+    position:relative;
+    right:222px;
+    top:9px;
+}
+
+#icon6_text{
+   position:relative;
+   top:9px;
+   right:130px;
+} 
+
+  

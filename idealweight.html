@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideal Body Weight</title>
+    <link rel="stylesheet" href="idealweight.css">
+    <script src="idealweight.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ideal Body Weight</h1>
+        <div class="gender">
+            <input type="radio" name="gender" value="1">  Male
+            <input type="radio" name="gender" value="2">  Female
+            </div>
+
+        <div class="height">
+                <input type="number" id="height" placeholder="Height                 cm">
+            </div>
+            <button onclick="findWeight()"> Calculate </button>
+            
+            <label id="l1">Hamwi : </label>
+            <label id="l2">Devine : </label>
+            <label id="l3">Robinson : </label>
+            <div id="result1"></div> 
+            <div id="result2"></div> 
+            <div id="result3"></div> 
+        
+    </div>
+
+    <div class="intro">
+        <h1>What is Ideal Body Weight ?</h1>
+        <h3>Ideal body weight is a range of weight that is considered healthy for a person based on factors such as height, age, gender, body composition, and overall health.</h3>
+    </div>
+
+    <div class="info">
+        <div class="hamwi">
+            <h3>Hamwi Formula :</h3>
+           <p><b>Male :</b> 48 kg + 2.7 kg per every inch over 5 feet</p>
+           <p><b>Female :</b> 45.5 kg + 2.2 kg per every inch over 5 feet</p>
+        </div>
+
+        <div class="devine">
+            <h3>Devine Formula :</h3>
+           <p><b>Male :</b> 50 kg + 2.3 kg per every inch over 5 feet</p>
+           <p><b>Female :</b> 45.5 kg + 2.3 kg per every inch over 5 feet</p>
+        </div>
+
+        <div class="robinson">
+            <h3>Robinson Formula :</h3>
+           <p><b>Male :</b> 52 kg + 1.9 kg per every inch over 5 feet</p>
+           <p><b>Female :</b> 49 kg + 1.7 kg per every inch over 5 feet</p>
+        </div>
+
+    </div>
+</body>
+</html>

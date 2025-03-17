@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="bmi.css">
+    <script src="bmi.js"></script>
+  
+</head>
+<body>
+    <div class="container">
+          <h1>BMI Calculator</h1>
+          <div class="age">
+            <input type="number" id="age" placeholder="Age" required>
+          </div>
+          <div class="height">
+            <input type="number" id="height" placeholder="Height                 cm" required>
+          </div>
+          <div class="weight">
+            <input type="number" id="weight" placeholder="Weight                  kg" required>
+          </div>
+          <button onclick="calculateBmi()">Calculate</button>
+            <p>* A healthy BMI is between 18.5 and 24.9</p>
+    </div>
+      
+     <label id="bmi">BMI &nbsp &nbsp &nbsp: </label>
+     <label id="class">Class &nbsp &nbsp: </label>
+
+     <div id="result1"> </div>
+     <div id="result2"></div>
+
+    <div class="intro">
+      <h1>What is BMI ?</h1>
+      <h3>BMI stands for Body Mass Index. It's a measure used to assess whether a person has a healthy body weight for their height. It's calculated by dividing a person's weight in kilograms by the square of their height in meters (BMI = weight (kg) / height (m)^2).</h3>
+ </div>
+
+ <div class="info">
+   <table>
+       <tr>
+          <th>Description</th>
+          <th>Body Mass Index</th>
+       </tr>
+
+       <tr>
+        <th>Under Weight</th>
+        <th><18.5</th>
+     </tr>
+
+     <tr>
+      <th>Normal Weight</th>
+      <th>18.5 - 24.9</th>
+   </tr>
+
+   <tr>
+    <th>Over Weight</th>
+    <th>25 - 29.9</th>
+ </tr>
+
+ <tr>
+  <th>Obesity</th>
+  <th>>30</th>
+</tr>
+
+   </table>
+ </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Body Fat Percentage</title>
+     <link rel="stylesheet" href="bodyfat.css">
+     <script src="bodyfat.js"></script>
+ </head>
+ <body>
+    <div class="container">
+        <h1>Body Fat Calculator</h1>
+            <div class="gender">
+            <input type="radio" name="gender" value="1">  Male
+            <input type="radio" name="gender" value="2">  Female
+            </div>
+       
+             <div class="age">
+            <input type="number" id="age" placeholder="Age">    
+             </div>
+       
+             <div class="height">
+                 <input type="number" id="height" placeholder="Height                 cm">
+             </div>
+
+             <div class="weight">
+                 <input type="number" id="weight" placeholder="Weight                  kg">
+             </div>
+       
+             <button onclick="calFat()"> Calculate </button>
+       
+             <label>Body Fat Percentage :</label>
+       
+             <h5>* &nbspFor Male :  A healthy BMI is between 14% - 17% </h5>
+             <h5 style="position:relative;top:160px">* &nbspFor Female :  A healthy BMI is between 21% - 24% </h5>
+        <div id="result"></div>
+        </div>
+        <div class="intro">
+             <h1>What is Body Fat Percentage ?</h1>
+             <h3>Body fat percentage is a measure of the amount of fat you have in your body compared to your total body weight. It's typically expressed as a percentage and is often used as an indicator of overall health and fitness.</h3>
+        </div>
+        <div class="info">
+         <table>
+          <tr>
+            <th>Description</th>
+            <th>Men</th>
+            <th>Women</th>
+          </tr>
+
+          <tr>
+            <th>Essential Fat</th>
+            <th>2-5%</th>
+            <th>10-13%</th>
+          </tr>
+
+          <tr>
+            <th>Athletes</th>
+            <th>6-13%</th>
+            <th>14-20%</th>
+          </tr>
+
+          <tr>
+            <th>Fitness</th>
+            <th>14-17%</th>
+            <th>21-24%</th>
+          </tr>
+
+          <tr>
+            <th>Acceptable</th>
+            <th>18-24%</th>
+            <th>25-31%</th>
+          </tr>
+
+          <tr>
+            <th>Obese</th>
+            <th>>25%</th>
+            <th>>32%</th>
+          </tr>
+         </table>
+        </div>
+ </body>
+</html>

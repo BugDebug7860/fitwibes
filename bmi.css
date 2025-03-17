@@ -1,0 +1,148 @@
+body {
+  font-family: arial;
+  animation-name: fadeIn;
+  animation-duration: 1.3s;
+  background-color:#7494ea;
+}
+
+.container {
+  height: 500px;
+  width: 450px;
+  background-color: #b0c1f0;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  text-align: center;
+}
+
+input[type="number"] {
+  height: 45px;
+  width: 170px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.age {
+  position: relative;
+  top: 20px;
+  right: 105px;
+}
+
+.height {
+  position: relative;
+  left: 105px;
+  bottom: 29px;
+}
+
+.weight {
+  position: relative;
+  bottom: 5px;
+}
+
+button {
+  position: relative;
+  font-weight: bolder;
+  top: 32px;
+  left:1px;
+  height: 45px;
+  width: 200px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #2658E2;
+  cursor:pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#bmi{
+  position:relative;
+  top:410px;
+  left:140px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+#class{
+  position:relative;
+  top:440px;
+  left:52px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+#result1{
+   height:25px;
+   width:100px;
+   position:relative;
+   top:388px;
+   left:230px;
+   font-size:20px;
+}
+
+#result2{
+  height:25px;
+  width:200px;
+  position:relative;
+  top:392px;
+  left:230px;
+  font-size:20px;
+}
+
+p {
+  position: relative;
+  top: 185px;
+  font-size: 16px;
+  text-align:center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.intro h1{
+  position:relative;
+  bottom:15px;
+  left:650px;
+  width:500px;
+}
+
+.intro h3{
+   position:relative;
+   left:650px;
+   bottom:15px;
+   width:500px;
+   line-height:1.3em;
+   font-size:20px;
+}
+
+.info{
+  position:relative;
+  left:653px;
+  width:500px;
+  font-weight:bolder;
+  font-size:20px;
+  bottom:10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th{
+  border: 1.5px solid black; 
+  padding-inline: 45px;
+  padding-block:8px;  
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Started</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="getStarted.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="logo.png" />
+      <ul>
+        <li><a href="index.html">Facts & More</a></li>
+
+        <li>
+          <div class="dropdown">
+            <div class="dropdown-button">Food and Diet</div>
+            <div class="dropdown-content">
+              <div class="dropdown-items"><a href="vegetarian.html">Vegetarian</a></div>
+              <div class="dropdown-items"><a href="nonveg.html">Non-Vegetarian</a></div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="dropdown">
+            <div class="dropdown-button">Fitness and Exercise</div>
+            <div class="dropdown-content">
+              <div class="dropdown-items"><a href="indoor.html">Indoor</a></div>
+              <div class="dropdown-items"><a href="outdoor.html">Outdoor</a></div>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="yoga.html">Mental Wellness</a></li>
+
+        <li>
+          <div class="dropdown">
+            <div class="dropdown-button">Health Tools</div>
+            <div class="dropdown-content">
+              <div class="dropdown-items"><a href="bmi.html">BMI Calculator</a></div>
+              <div class="dropdown-items"><a href="bodyfat.html">Body Fat Calculator</a></div>
+              <div class="dropdown-items"><a href="idealweight.html">Ideal Weight Calculator</a> </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="aboutus.html">About Us</a></li>
+
+        <a href="getStarted.html" id="getstarted">Get Started</a>
+      </ul>
+    </div>
+    <hr>
+
+    <div class="content">
+      <h1>
+        “Good health is not something we can buy. However, it can be an
+        extremely valuable savings account.” - Anne Wilson Schaef
+      </h1>
+      <h3>Start Your Fitness Journey Now - </h3>
+      <input type="email" placeholder="Enter your Email">
+      <button id="signup"> Register </button>
+      <span>Already have an Account &nbsp? &nbsp <a href="login.php" style="color:#023e8a;">Log in</a></span>
+    </div>
+    <script>
+      let button2 = document.getElementById('signup');
+      button2.addEventListener('click', () => {window.location.href = "signup.php"});
+  </script>
+  </body>
+</html>

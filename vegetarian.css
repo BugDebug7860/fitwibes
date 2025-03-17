@@ -1,0 +1,190 @@
+body{
+    overflow-x:hidden; 
+    }
+
+.banner{
+    background-image: url("veg.png");
+    background-size:cover;
+    position:relative;
+    bottom:9.5px;
+    height:400px;
+    width:1278px;
+    border:1px solid;
+    margin:auto;
+   }
+
+
+    h1{
+    height:20px;
+    width:270px;
+    font-size:27px;
+    margin-left:55px;
+    margin-top:40px;
+    margin-bottom:25px;
+    background-color:#225882;
+    color:white;
+    padding:10px;
+    display:flex;
+    align-items:center;
+    border-radius:3px;
+    font-weight:600;
+    }
+
+    .fruits h1{
+       width:210px;
+    }
+
+ .vegetable p{
+   
+    width:90%;
+    margin:auto;
+    font-size:22px;
+    border-left:2px solid rgb(10, 91, 171);
+    padding-left:15px;
+    line-height:1.4em;
+    margin-bottom:40px;
+ }   
+
+.row{
+    margin-top:50px;
+    margin:auto;
+    height:400px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+
+.cart{
+    height:350px;
+    width:300px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition:all 500ms;
+}
+
+.cart:hover{
+    transform:scale(1.15);
+    cursor:pointer;
+}
+
+.image{
+    margin-top:7px !important;
+    height:170px;
+    width:287px;
+    margin:auto;
+    border-radius:5px;
+}
+
+ .info{
+   width:275px;
+   margin:auto;
+   line-height:1.4rem;
+   text-align:justify;
+}
+
+#cart1 .image{
+    background-image:url("spinach.png");
+    background-size:cover;
+}
+
+#cart2 .image{
+    background-image:url("carrot.png");
+    background-size:cover;
+}
+
+#cart3 .image{
+    background-image:url("Broccoli.png");
+    background-size:cover;
+}
+
+#cart4 .image{
+    background-image:url("Tomatoes.png");
+    background-size:cover;
+}
+
+#cart5 .image{
+    background-image:url("Cauliflower.png");
+    background-size:cover;
+}
+
+#cart6 .image{
+    background-image:url("BellPeppers.png");
+    background-size:cover;
+}
+
+#cart7 .image{
+    background-image:url("SweetPotato.png");
+    background-size:cover;
+}
+
+#cart8 .image{
+    background-image:url("Kale.png");
+    background-size:cover;
+}
+
+#cart9 .image{
+    background-image:url("Asparagus.png");
+    background-size:cover;
+}
+
+.fruits{
+    margin-top:50px;
+}
+
+ .fruits p{
+   
+    width:90%;
+    margin:auto;
+    font-size:22px;
+    border-left:2px solid rgb(10, 91, 171);
+    padding-left:15px;
+    line-height:1.4em;
+    margin-bottom:40px;
+ } 
+
+ #cart10 .image{
+    background-image:url("oranges.png");
+    background-size:cover;
+}
+
+#cart11 .image{
+    background-image:url("avacado.png");
+    background-size:cover;
+}
+
+#cart12 .image{
+    background-image:url("banana.png");
+    background-size:cover;
+}
+
+#cart13 .image{
+    background-image:url("blueberry.png");
+    background-size:cover;
+}
+
+#cart14 .image{
+    background-image:url("apple.png");
+    background-size:cover;
+}
+
+#cart15 .image{
+    background-image:url("kiwi.png");
+    background-size:cover;
+}
+
+#cart16 .image{
+    background-image:url("pineapple.png");
+    background-size:cover;
+}
+
+#cart17 .image{
+    background-image:url("grapes.png");
+    background-size:cover;
+}
+
+#cart18 .image{
+    background-image:url("papaya.png");
+    background-size:cover;
+}

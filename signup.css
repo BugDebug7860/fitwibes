@@ -1,0 +1,98 @@
+body{
+   margin:0;
+    font-family:arial;
+    background-image:url("signup.png");
+    background-size:cover;
+ }
+
+.registercart {
+    height: 500px;
+    width: 450px;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 60px;
+    left: 420px;
+    animation-name:fadeIn;
+    animation-duration:1.3s;
+  }
+
+  .registercart h1{
+    font-size:30px;
+    font-weight:bolder;
+    height:50px;
+    position: relative;
+    left:164px;
+    margin-bottom:30px;
+ }
+
+ form{
+    position:relative;
+    bottom:30px;
+ }
+
+ .registercart input[type="text"],
+input[type="password"], input[type="number"]
+{
+  display:block;
+  position: relative;
+  top:5px;
+  margin-left:51px;
+  margin-bottom:8px;
+  height:50px;
+  width:330px;
+  border:1px solid;
+  border-radius:2px;
+  padding-left:13px;
+  font-size:16px
+}
+
+h3{
+  margin-left:55px;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+button{
+    margin-top:45px;
+    border:none;
+    border-radius:4px;
+    margin-left:50px;
+    height:50px;
+    width:348px;
+    font-size:15px;
+    background-color:#0b488a;
+    color:white;
+    font-weight:bolder;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  a{
+    color:inherit;
+    text-decoration:none;
+  }
+
+  #termsCheckbox{
+    display:inline;
+    margin-left:55px;
+    position:relative;
+    top:32px;
+  }
+
+  h5{
+    position:relative;
+    top:30px;
+    display:inline;
+  }
+
+  @keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+  }

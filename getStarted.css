@@ -1,0 +1,65 @@
+body{
+  margin:0;
+  overflow-y:hidden;
+}
+   
+   .content {
+     height: 525px;
+     width: 100%;
+     background-image: url("getstarted.jpg");
+     background-size: cover;
+     position:relative;
+     bottom:10px;
+     
+   }
+
+   h1 {
+     margin: 0px;
+     height: 150px;
+     width: 450px;
+     position: absolute;
+     top: 70px;
+     left: 170px;
+     font-size: 30px;
+   }
+
+   input[type="email"]{
+     position:absolute;
+     top:283px;
+     left:170px;
+     height:40px;
+     width:430px;
+     padding-left:15px;
+     border:1px solid;
+     font-size:18px;
+     opacity:calc(80%);
+     color:black;
+   }
+
+   h3{
+     margin:0px;
+     position:absolute;
+     top:250px;
+     left:175px;
+   }
+
+   #signup{
+     position:absolute;
+     top:365px;
+     left:339px;
+     height:40px;
+     width:115px;
+     background-color:#0b488a;
+     color:white;
+     font-weight:bold;
+     font-size:18px;
+     cursor:pointer;
+     border:1.5px solid black;
+   }
+
+   span{
+      position:absolute;
+      top:430px;
+      left:260px;
+      font-size:17px;
+   }
